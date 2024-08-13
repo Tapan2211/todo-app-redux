@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.app__title {
+  margin-bottom: 10px;
+}
+
+.tasklist {
+  margin-top: 20px;
+}
+
+.task {
+  margin: 12px 0;
+}
+
+.delete-btn {
+  margin-left: 10px;
+}
+
+.taskInput {
+  outline: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
